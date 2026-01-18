@@ -13,6 +13,7 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .gradient {
@@ -32,6 +33,9 @@
     gap: 4px ;
     align-items: center;
     border: none;
+}
+.none{
+    display: none;
 }
 
 /* Header styles stats here */
@@ -63,4 +67,20 @@ nav .nav-logo{
     color: white;
     font-size: 16px;
     font-weight: 500;
+}
+.hamburger-menu{
+    display: none;
+}
+
+
+
+
+/* Responsive styles here */
+@media screen and (max-width:576px) {
+    .links, .nav-btn{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
 }
