@@ -46,6 +46,7 @@
 .description{
     font-size: 16px;
     color: rgba(255, 255, 255, 0.642);
+    line-height: 24px;
 }
 .section-title{
     font-size: 48px;
@@ -278,6 +279,47 @@ nav .nav-logo{
     height: 20px;
 }
 
+/* Host section styles here */
+.host-section{
+    background-color:#1A0B2E;
+    padding-bottom: 100px;
+}
+.host-details{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    margin-top: 40px;
+}
+.host-info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.host-info .host-name{
+    font-size: 32px;
+    font-weight: 600px;
+    color: white;
+}
+.host-info .social-links{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.host-info .social-links div img{
+    width: 20px;
+    height: 20px;
+}
+.host-info .social-links div{
+    padding: 10px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+}
+
+
 /* Responsive styles here */
 @media screen and (max-width:576px) {
     .links, .nav-btn{
@@ -353,5 +395,19 @@ nav .nav-logo{
         flex-direction: column;
         align-items: center;
         gap: 30px;
+    }
+    .host-section{
+        padding-bottom: 20px;
+    }
+    .host-details{
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+        padding: 24px;
+        margin-top: 24px;
+    }
+    .host-info{
+        align-items: center;
+        text-align: center;
     }
 }
