@@ -37,6 +37,10 @@
 .none{
     display: none;
 }
+.description{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.802);
+}
 
 /* Header styles stats here */
 #header{
@@ -69,11 +73,65 @@ nav .nav-logo{
     font-weight: 500;
 }
 .hamburger-menu{
-    display: none;
+    display: none; 
 }
 
+/* Banner section style here  */
+.banner-section{
+    background-image: url("../assets/hero-bg.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: repeat-x;
+    padding: 80px 0px;
+    text-align: center;
+    max-height: 760px;
+    border-top: 1px solid #2A186C;
+}
+.banner-img{
+    position: relative;
+}
+.banner-img .mic-bg{
+    max-width: 350px;
+    max-height: 350px;
+}
+.mic{
+    max-width: 200px;
+    max-height: 200px;
+    position: absolute;
+    left: 45%;
+    top: 25%;
 
-
+}
+.badge{
+    position: absolute;
+    background-color: #00FF88;
+    color: #1A0B2E;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 100px;
+    left: 57%;
+    top: 6%;
+}
+.banner-heading{
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+.banner-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+}
+#transparent-btn{
+    background: transparent;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+}
 
 /* Responsive styles here */
 @media screen and (max-width:576px) {
