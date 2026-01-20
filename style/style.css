@@ -415,18 +415,17 @@ footer .footer-heading{
         display: grid;
         gap: 30px;
         grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
     }
     .long-card{
         grid-column: span 1;
-        grid-row: span 1;
+        grid-row: auto;
     }
     .wide-card{
         grid-column: span 1;
-        grid-row: span 1;
     }
     .regular-card{
         grid-column:  span 1;
-        grid-row: span 1;
     }
     .featured-section{
         padding: 40px 0px;
