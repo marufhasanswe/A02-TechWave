@@ -318,13 +318,15 @@ nav .nav-logo{
     border: 1px solid #533C72;
     border-radius: 50%;
 }
-
+.copyright{
+    text-align: center;
+}
 /* Footer styles here */
 footer{
     background-image: url("../assets/footer-bg.png");
-    background-size: contain;
+    background-size: 100% 100%;
     background-position:center;
-    background-repeat: repeat;
+    background-repeat: repeat-x;
     padding: 100px 0px;
 }
 footer .footer-container{
@@ -452,7 +454,8 @@ footer .footer-heading{
     }
 
     footer{
-        padding: 40px 0px;
+        padding: 20px 0px;
+        background-image: url("../assets/footer-small-bg.png");
     }
     footer .footer-heading{
         font-size: 40px;
@@ -461,7 +464,7 @@ footer .footer-heading{
         flex-direction: column;
         align-items: center;
         gap: 16px;
-        padding: 32px 0px;
+        padding: 24px 0px;
     }
     .footer-social-links div{
         gap: 16px;
